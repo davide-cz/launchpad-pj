@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    .pad{
+        @apply w-20 h-20 rounded-lg shadow-md bg-amber-200  border-2 border-black hover:bg-amber-500 transition-all
+    }
+    .ctrlBtn{
+        @apply p-2 border rounded-md
+    }
+}
